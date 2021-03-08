@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript Tutorial</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Grab Cad Assignment</h1>
+    <!-- output list -->
+    <ul class="item-list">      
+    </ul>
+  </div>
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Select Album Name:</label>
+        <select id="type">
+          <option>Select Album</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Select Photo:</label>
+        <select id="photos">
+          <option>Select Photo</option>
+          </select>
+      </div> 
+      <div class="field">
+        <img id="imgCtrl" style="visibility: visible;" class="fit-picture" src="">
+        <button style="height: 30px; width: 30px; visibility: hidden;" id="submit">Save</button>
+      </div>    
+    </form>
+  </footer>
+<script type="module" src='./app.ts'></script>
+</body>
+</html>
