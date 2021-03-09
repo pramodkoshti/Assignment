@@ -1,5 +1,16 @@
 # Assignment
 
+Install Module:
+1) express
+2) body-parser
+3) fs
+4) http
+5) pg
+6) querystring
+7) console
+8) node:process
+
+
 -Steps to configure:
   1) Run the SQL script named "Createtable.sql" inside TSQL folder.
   2) Change connection string inside "src/dbConfig/dbConnector.ts".
